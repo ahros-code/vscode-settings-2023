@@ -163,28 +163,6 @@
 	"cSpell.language": "en,ru",
 	"cSpell.userWords": [
 		"Laravel",
-		"noopener",
-		"noreferrer",
-		"tabnine",
-		"onecentlin",
-		"kokororin",
-		"phpfmt",
-		"singlequotes",
-		"esbenp",
-		"Parens",
-		"vsintellicode",
-		"donot",
-		"Iosevka",
-		"FlottFlott",
-		"Fira",
-		"Roboto",
-		"Hamidulloh",
-		"Raxmanov",
-		"fortawesome",
-		"gitblame",
-		"fontawesome",
-		"musbat",
-		"manfiy"
 	],
 	"cSpell.enabled": true,
 	"cSpell.enableFiletypes": [
@@ -228,5 +206,4 @@
 	"window.commandCenter": true,
 	"gitblame.inlineMessageEnabled": true,
 	"gitblame.inlineMessageFormat": " ${author.name} (${time.ago})",
-	"cSpell.ignoreWords": ["hammasi", "ikki", "juft", "katta", "kichkina", "yoki"]
 }
