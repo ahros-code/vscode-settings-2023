@@ -1,5 +1,4 @@
 {
-	//Main editor settings
 	"window.openFilesInNewWindow": "off",
 	"editor.tabSize": 2,
 	"editor.wordWrap": "bounded",
@@ -11,21 +10,19 @@
 	"editor.minimap.enabled": false,
 	"editor.detectIndentation": true,
 	"editor.suggestSelection": "first",
-	//Определяет, будет ли редактор прокручиваться за пределы последней строки.
+
 	"editor.scrollBeyondLastLine": true,
 	"editor.multiCursorModifier": "ctrlCmd",
-	//Определяет, должен ли редактор отображать управляющие символы.
+	
 	"editor.renderControlCharacters": false,
-	//Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользовательского языкового стандарта.
+	
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 
-	//Appearance
 	"editor.cursorBlinking": "expand",
-	"editor.bracketPairColorization.enabled": false,
 	"editor.glyphMargin": false,
 	"editor.scrollbar.horizontal": "hidden",
-	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.vertical": "visible",
 	"workbench.colorCustomizations": {
 		"editorOverviewRuler.errorForeground": "#0000",
 		"editorOverviewRuler.warningForeground": "#0000",
@@ -51,7 +48,6 @@
 		"textMateRules": [
 			{
 				"scope": [
-					//following will be in italic (=FlottFlott)
 					"comment",
 					"entity.name.type.class", //class names
 					"keyword", //import, export, return…
@@ -65,7 +61,6 @@
 			},
 			{
 				"scope": [
-					//following will be excluded from italics (VSCode has some defaults for italics)
 					"invalid",
 					"keyword.operator",
 					"constant.numeric.css",
@@ -80,31 +75,32 @@
 		]
 	},
 
-	//Terminal
-	"terminal.integrated.fontFamily": "IBM Plex Mono",
-	"terminal.integrated.fontWeight": "500",
+	
+	"terminal.integrated.fontFamily": "Hack NF",
+	"terminal.integrated.fontWeight": "400",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.lineHeight": 1.3,
 
-	//Explorer
+	
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
 
-	//Emmet
+	
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.showExpandedAbbreviation": "always",
-	//Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
+	
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 
-	//Debug
+	
 	"debug.toolBarLocation": "hidden",
 	"debug.focusWindowOnBreak": false,
 	"debug.showInlineBreakpointCandidates": false,
 	"debug.showBreakpointsInOverviewRuler": false,
 
-	//Format
+	
 	"prettier.semi": true,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
@@ -113,7 +109,7 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true
 	},
-	//Включите круглые скобки вокруг единственного параметра функции стрелки
+
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.inlineSuggest.enabled": true,
@@ -121,9 +117,9 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 
-	//Laravel
 	"emmet.includeLanguages": {
-		"blade": "html"
+		"blade": "html",
+		"javascript": "javascriptreact"
 	},
 	"blade.format.enable": true,
 	"files.defaultLanguage": "plaintext",
@@ -133,7 +129,6 @@
 	"html.completion.attributeDefaultValue": "singlequotes",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
-	//Breadcrumbs
 	"breadcrumbs.icons": false,
 	"breadcrumbs.showKeys": false,
 	"breadcrumbs.showFiles": false,
@@ -149,7 +144,6 @@
 	"breadcrumbs.showEnumMembers": false,
 	"breadcrumbs.showConstructors": false,
 
-	//JS & TS
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.preferences.quoteStyle": "single",
@@ -158,23 +152,6 @@
 	"typescript.format.semicolons": "remove",
 	"typescript.suggest.paths": false,
 	"javascript.suggest.paths": false,
-
-	//Spell checker
-	"cSpell.language": "en,ru",
-	"cSpell.userWords": [
-		"Laravel",
-	],
-	"cSpell.enabled": true,
-	"cSpell.enableFiletypes": [
-		"blade",
-		"jsx",
-		"tsx",
-		"ts",
-		"js",
-		"scss",
-		"sass",
-		"vue"
-	],
 
 	"editor.unicodeHighlight.allowedCharacters": {
 		"а": true,
@@ -193,17 +170,24 @@
 		"**/.vscode": true,
 		"**/.next": true
 	},
-	"[blade]": {
-		"editor.defaultFormatter": "onecentlin.laravel-blade"
-	},
+
 	"[php]": {
 		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
 	},
-	"workbench.activityBar.visible": false,
-	"window.zoomLevel": 0,
+
 	"tabnine.experimentalAutoImports": true,
 	"files.autoSave": "afterDelay",
 	"window.commandCenter": true,
 	"gitblame.inlineMessageEnabled": true,
 	"gitblame.inlineMessageFormat": " ${author.name} (${time.ago})",
+	"git.openRepositoryInParentFolders": "never",
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"workbench.activityBar.visible": false,
+	"emmet.preferences": {},
+	"window.titleBarStyle": "custom",
+	"telemetry.telemetryLevel": "off",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairs": "active"
 }
