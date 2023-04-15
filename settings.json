@@ -3,7 +3,6 @@
 	"editor.tabSize": 2,
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
-	"editor.wordWrapColumn": 60,
 	"editor.folding": true,
 	"editor.insertSpaces": false,
 	"editor.smoothScrolling": true,
@@ -13,9 +12,9 @@
 
 	"editor.scrollBeyondLastLine": true,
 	"editor.multiCursorModifier": "ctrlCmd",
-	
+
 	"editor.renderControlCharacters": false,
-	
+
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 
@@ -42,7 +41,6 @@
 	"editor.fontFamily": "Dank Mono, IBM Plex Mono",
 	// "editor.fontFamily": "JetBrains Mono, monospace",
 	"editor.inlayHints.fontFamily": "Pragmata Pro",
-	"notebook.outputFontFamily": "Pragmata Pro",
 
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
@@ -75,32 +73,27 @@
 		]
 	},
 
-	
 	"terminal.integrated.fontFamily": "Hack NF",
 	"terminal.integrated.fontWeight": "400",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.tabs.enabled": false,
 	"terminal.integrated.lineHeight": 1.3,
 
-	
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
 
-	
 	"emmet.triggerExpansionOnTab": true,
 	"emmet.showExpandedAbbreviation": "always",
-	
+
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 
-	
 	"debug.toolBarLocation": "hidden",
 	"debug.focusWindowOnBreak": false,
 	"debug.showInlineBreakpointCandidates": false,
 	"debug.showBreakpointsInOverviewRuler": false,
 
-	
 	"prettier.semi": true,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
@@ -121,7 +114,6 @@
 		"blade": "html",
 		"javascript": "javascriptreact"
 	},
-	"blade.format.enable": true,
 	"files.defaultLanguage": "plaintext",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"liveServer.settings.donotShowInfoMsg": true,
@@ -171,15 +163,8 @@
 		"**/.next": true
 	},
 
-	"[php]": {
-		"editor.defaultFormatter": "kokororin.vscode-phpfmt"
-	},
-
 	"tabnine.experimentalAutoImports": true,
-	"files.autoSave": "afterDelay",
 	"window.commandCenter": true,
-	"gitblame.inlineMessageEnabled": true,
-	"gitblame.inlineMessageFormat": " ${author.name} (${time.ago})",
 	"git.openRepositoryInParentFolders": "never",
 	"[python]": {
 		"editor.formatOnType": true
@@ -189,5 +174,9 @@
 	"window.titleBarStyle": "custom",
 	"telemetry.telemetryLevel": "off",
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-	"editor.guides.bracketPairs": "active"
+	"editor.guides.bracketPairs": "active",
+	"editor.wordWrapColumn": 120,
+	"files.autoSave": "afterDelay",
+	"window.zoomLevel": 0,
+	"terminal.integrated.defaultProfile.windows": "Git Bash"
 }
