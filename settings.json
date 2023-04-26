@@ -31,6 +31,7 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.layoutControl.enabled": false,
+	"workbench.panel.defaultLocation": "right",
 	"editor.fontSize": 14,
 	"editor.lineHeight": 24,
 	"editor.fontLigatures": true,
@@ -111,8 +112,7 @@
 	},
 
 	"emmet.includeLanguages": {
-		"blade": "html",
-		"javascript": "javascriptreact"
+		"blade": "html"
 	},
 	"files.defaultLanguage": "plaintext",
 	"diffEditor.ignoreTrimWhitespace": false,
